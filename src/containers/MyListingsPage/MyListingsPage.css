@@ -1,0 +1,13 @@
+.MyListings {
+  margin: 0;
+}
+
+.MyListings-main {
+  list-style: none;
+  padding: 0 80px;
+  margin: 0;
+}
+
+.MyListings-section {
+  padding: 48px 0 72px;
+}

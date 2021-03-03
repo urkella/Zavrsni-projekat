@@ -1,0 +1,15 @@
+.Foods {
+  padding: 0;
+}
+
+.FoodsWrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 24px;
+}
+
+.Title {
+  font-size: 24px;
+  margin: 0 0 34px;
+  line-height: 1;
+}

@@ -1,0 +1,25 @@
+.Gallery {
+  margin: 0;
+}
+
+.Contact-map {
+  width: 100%;
+  height: calc(100vh - 72px);
+  border: 0;
+}
+
+.Contact-main {
+  padding: 72px 80px;
+  margin: 0;
+}
+
+.Contact-info li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.Contact-info li img {
+  height: 18px;
+  margin-right: 10px;
+}

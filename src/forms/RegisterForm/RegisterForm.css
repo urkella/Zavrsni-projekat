@@ -1,0 +1,14 @@
+.RegisterForm {
+  margin-top: 24px;
+}
+
+.Already-user {
+  margin-top: 15px;
+  color: #7c90db;
+  width: 100%;
+
+
+  text-align: center ;
+  cursor: pointer;
+
+}

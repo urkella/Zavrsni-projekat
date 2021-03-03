@@ -1,0 +1,16 @@
+.App {
+  margin: 0;
+}
+
+.App-main {
+  list-style: none;
+  padding: 0 80px;
+  margin: 0;
+}
+
+.App-section {
+  padding: 48px 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}

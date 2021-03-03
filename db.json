@@ -1,0 +1,102 @@
+{
+  "food": [
+    {
+      "name": "Diamond Pizza",
+      "text": "Diamond pizza with extra cheese.",
+      "price": 25,
+      "kcal": "25",
+      "time": "00:30",
+      "image": "https://www.yumcurry.com/wp-content/uploads/2020/06/pizza-margherita-recipe.jpg",
+      "slug": "diamond-pizza",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "Margherita Pizza",
+      "text": "A pizza with a lot of cheese and pepperoni.",
+      "price": 100,
+      "kcal": "255",
+      "time": "01:10",
+      "image": "https://onlineculinaryschool.net/wp-content/uploads/2018/10/online_culinary_school_pizza_margherita-1.jpg",
+      "slug": "golden-pizza",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "Pizza San Gioavni",
+      "text": "Pizza San Giovani with extra cheese. It is a Italian pizza that exist from the early 2002.",
+      "price": 150,
+      "kcal": "350",
+      "time": "01:40",
+      "image": "http://www.picadostava.rs/wp-content/uploads/2017/01/bg-pizza.jpg",
+      "slug": "pizza-san-gioavni",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Pizza Capricciosa",
+      "text": "Capricciosa is a style of pizza in Italian cuisine prepared with mozzarella cheese, Italian baked ham, mushroom, artichoke and tomato. Types of edible mushrooms used may include cremini and others. Some versions may also use prosciutto, marinated artichoke hearts, olive oil, olives, basil leaves, and egg.",
+      "price": 50,
+      "kcal": "550",
+      "time": "02:30",
+      "image": "https://www.didykitchen.com/wp-content/uploads/2018/06/pizza-capricciosa-pizza.jpg",
+      "slug": "pizza-capricciosa",
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "name": "Aleksa Prebiracevic",
+      "text": "Diamond pizza with extra cheese",
+      "price": 52,
+      "kcal": "21132",
+      "time": "00:56",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg",
+      "slug": "aleksa-prebiracevic",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "name": "Aleksa Prebiracevic",
+      "text": "Diamond pizza with extra cheese",
+      "price": 52,
+      "kcal": "25",
+      "time": "13:12",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg",
+      "slug": "aleksa-prebiracevic",
+      "userId": 6,
+      "id": 6
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "urospavllovic@gmail.com",
+      "password": "asdf1234"
+    },
+    {
+      "email": "aleksaprebiracevicorona@outlook.com",
+      "password": "aleksa95",
+      "id": 2
+    },
+    {
+      "email": "coronafashion65@gmail.com",
+      "password": "aleksa95",
+      "id": 3
+    },
+    {
+      "email": "aleksaprebiracevicorona@outlook.comsada",
+      "password": "aleksa95",
+      "id": 4
+    },
+    {
+      "email": "aleksaprebiracevicorona@outlook22.com",
+      "password": "aleksa95",
+      "id": 5
+    },
+    {
+      "email": "adsdsa@gmail.com",
+      "password": "aleksa95",
+      "id": 6
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+.Hero {
+  height: calc(100vh - 72px);
+  width: 100%;
+}
+
+.Hero-bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-image: linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.5) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    url("https://blogs.forbes.com/karlaalindahao/files/2019/05/The-Apparatus-Room-Detroit_Best-Restaurants-for-a-Big-Night-Out-2019_OpenTable.jpg"); */
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.Hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Hero-title {
+  font-family: "Dancing Script", cursive;
+  margin: 0;
+  font-size: 58px;
+  color: #fff;
+}
+
+.Hero-button {
+  border: 0;
+  font-size: 18px;
+  background: #7c90db;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 48px;
+  padding: 12px 24px;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.Hero-button:hover {
+  transform: translateY(-3px);
+  background: #9593d9;
+}
+
+.Chevron {
+  position: absolute;
+  bottom: 24px;
+  left: 50%;
+  transform: translate(-24px, -50%);
+  height: 34px;
+  width: 34px;
+  animation: scrolling 3s ease infinite;
+}
+
+@keyframes scrolling {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0, -20px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}

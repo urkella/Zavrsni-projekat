@@ -1,0 +1,55 @@
+.App {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  margin: 0;
+}
+
+.App-main {
+  list-style: none;
+  padding: 0 80px;
+  margin: 0;
+}
+
+.App-content {
+  flex: 1;
+}
+
+.App-section {
+  padding: 48px 0;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+.App-section:last-child {
+  border-bottom: none;
+  padding-bottom: 72px;
+}
+
+.error {
+  margin: 0;
+  color: #ff0000;
+}
+
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 24px;
+}
+
+.error-link {
+}
+
+input[type="time"]::-webkit-clear-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+input[type="time"]::-webkit-datetime-edit-ampm-field {
+  display: none;
+}

@@ -1,0 +1,104 @@
+.Food-wrapper {
+  max-width: 800px;
+  margin: 96px auto;
+}
+
+.Food-main {
+  display: flex;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0px 30px 80px 10px rgba(0, 0, 0, 0.2);
+  margin: 12px 0;
+}
+
+.Food-hero {
+  flex: 0 0 45%;
+}
+
+.Food-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.Food-content {
+  background: white;
+  flex: 1;
+  padding: 35px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Food-price {
+  background: linear-gradient(to bottom, #67b26f, #4ca2cd);
+  flex: 0 0 50px;
+  color: white;
+  font-size: 18px;
+  writing-mode: vertical-lr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.Food-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Food-heading {
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.Food-tag {
+  font-size: 10px;
+  text-transform: lowercase;
+  margin-left: 5px;
+  color: white;
+  border-radius: 100px;
+  padding: 2px 7px;
+}
+
+.Food-tag--1 {
+  background-color: #67b26f;
+}
+.Food-tag--2 {
+  background-color: #4ca2cd;
+}
+
+.Food-description {
+  font-size: 15px;
+}
+
+.Food-details {
+  display: flex;
+  margin-top: auto;
+}
+
+.Food-detail {
+  font-size: 14px;
+  margin-right: 15px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+
+.emoji {
+  font-size: 20px;
+  margin-right: 3px;
+}
+
+.Food-back {
+  color: #0052cc;
+  cursor: pointer;
+  font-size: 15px;
+  opacity: 0.6;
+  transform: opacity 0.15s ease-in-out;
+}
+
+.Food-back:hover {
+  opacity: 1;
+}

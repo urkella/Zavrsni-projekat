@@ -1,0 +1,25 @@
+.AddFood {
+  margin-top: 24px;
+}
+
+.Field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+}
+
+.Submit {
+  border: 0;
+  font-size: 16px;
+  background: #7c90db;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 24px;
+  padding: 12px 24px;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+}
+
+.Submit:hover {
+  background: rgb(124, 144, 219, 0.8);
+}

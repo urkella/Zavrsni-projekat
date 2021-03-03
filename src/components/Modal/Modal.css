@@ -1,0 +1,30 @@
+.Modal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  overflow-y: hidden;
+}
+
+.Modal {
+  position: relative;
+  flex-basis: 500px;
+  background: #fff;
+  padding: 48px;
+  border-radius: 3px;
+}
+
+.Close {
+  position: absolute;
+  top: 24px;
+  right: 38px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 18px;
+}
