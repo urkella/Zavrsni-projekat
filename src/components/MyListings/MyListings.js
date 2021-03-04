@@ -2,6 +2,7 @@ import React from "react";
 import { useEffect, useState } from "react";
 import { getFoodByUserId } from "../../api/fetch";
 import { FoodCard } from "../../components";
+import { deleteFood } from "../../api/delete";
 
 import "./MyListings.css";
 
@@ -26,8 +27,25 @@ function MyListings(props) {
       });
   }, []);
 
+  const onDeleteFood = (id) => {
+    return deleteFood(id).then(() => {
+      const listingsWithoutDeleted = listings.filter(
+        (listing) => id !== listing.id
+      );
+
+      return getMyListings(listingsWithoutDeleted);
+    });
+  };
+
   const displayResults = listings?.map((food, key) => {
-    return <FoodCard key={key} {...food} />;
+    return (
+      <FoodCard
+        {...food}
+        key={key}
+        currentUserId={userId}
+        onDeleteFood={onDeleteFood}
+      />
+    );
   });
 
   const errorMessage = (

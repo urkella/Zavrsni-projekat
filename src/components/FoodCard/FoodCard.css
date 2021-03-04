@@ -4,6 +4,7 @@
 }
 
 .AspectWrapper {
+  display: block;
   position: relative;
   overflow: hidden;
   padding-bottom: 66%;
@@ -85,4 +86,13 @@
   margin: 0;
   font-weight: 500;
   color: #fff;
+}
+
+.Delete {
+  margin-top: 12px;
+  font-weight: bold;
+  position: relative;
+  z-index: 9;
+  cursor: pointer;
+  color: #0052cc;
 }

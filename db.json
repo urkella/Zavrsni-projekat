@@ -67,11 +67,6 @@
       "id": 4
     },
     {
-      "email": "aleksaprebiracevicorona@outlook22.com",
-      "password": "aleksa95",
-      "id": 5
-    },
-    {
       "email": "adsdsa@gmail.com",
       "password": "aleksa95",
       "id": 6
@@ -80,6 +75,11 @@
       "email": "aleksaprebiracevicorona@outlook232.com",
       "password": "aleksa95",
       "id": 7
+    },
+    {
+      "email": "aleksaprebiracevicorona33@outlook.com",
+      "password": "aleksa95",
+      "id": 8
     }
   ]
 }
