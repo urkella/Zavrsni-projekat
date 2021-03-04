@@ -43,28 +43,6 @@
       "slug": "pizza-capricciosa",
       "userId": 2,
       "id": 4
-    },
-    {
-      "name": "Aleksa Prebiracevic",
-      "text": "Diamond pizza with extra cheese",
-      "price": 52,
-      "kcal": "21132",
-      "time": "00:56",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg",
-      "slug": "aleksa-prebiracevic",
-      "userId": 2,
-      "id": 5
-    },
-    {
-      "name": "Aleksa Prebiracevic",
-      "text": "Diamond pizza with extra cheese",
-      "price": 52,
-      "kcal": "25",
-      "time": "13:12",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg",
-      "slug": "aleksa-prebiracevic",
-      "userId": 6,
-      "id": 6
     }
   ],
   "users": [
