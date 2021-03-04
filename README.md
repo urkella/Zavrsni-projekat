@@ -14,6 +14,11 @@ Otvoriti terminal u projekt direktorijumu i uneti sledece komande:
 
 Instalira sve node module potrebne za pokretanje aplikacije
 
+### `touch .env`
+
+Kreira konfiguracioni fajl u kome cuvamo konstantne vrednosti. Po default-u je potrebno dodati sledecu vrednost: 
+REACT_APP_DIAMOND_API=http://localhost:3005
+
 ### `npm start`
 
 Pokrece aplikaciju u development mode-u.
